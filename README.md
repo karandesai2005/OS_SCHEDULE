@@ -136,3 +136,45 @@ ORDER BY salary DESC;
 
 Would you also like quick examples combining JOIN, GROUP BY, and ORDER BY together? (it’s common in real projects!)
 
+Here's the straight answer:
+
+
+---
+
+1. See Triggers
+
+SHOW TRIGGERS;
+
+2. See Procedures
+
+SHOW PROCEDURE STATUS WHERE Db = 'your_database_name';
+
+3. See Functions
+
+SHOW FUNCTION STATUS WHERE Db = 'your_database_name';
+
+
+---
+
+To See the Syntax (Definition) of a Specific:
+
+Trigger:
+
+
+SHOW CREATE TRIGGER trigger_name;
+
+Procedure:
+
+
+SHOW CREATE PROCEDURE procedure_name;
+
+Function:
+
+
+SHOW CREATE FUNCTION function_name;
+
+
+---
+
+Let me know if you want a ready command that lists everything together quickly!
+
